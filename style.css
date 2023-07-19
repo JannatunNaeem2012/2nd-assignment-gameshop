@@ -3,9 +3,18 @@
 * {
     margin: 0px;
     font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
 }
 
-.btn-primary {}
+.btn-primary {
+    padding: 1rem 2rem;
+    background-color: #FF42A5;
+    margin: 0.6rem;
+    border-radius: 2rem;
+    border: 0;
+    color: #FFF;
+    font-weight: 600;
+}
 
 .pink {
     color: #FF42A5;
@@ -54,25 +63,4 @@ nav {
 }
 
 /* banner section */
-.banner-section{
-    display: flex;
-}
-.banner-texts{
-    background-image: url('images/Group\ 14.png');
-}
-.banner-1st-line {
-    color: #0B0223;
-    font-size: 2rem;
-    font-weight: 600;
-    text-transform: uppercase;
-}
 
-.goat {
-    font-size: 4rem;
-    font-weight: 800;
-    text-transform: uppercase;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
