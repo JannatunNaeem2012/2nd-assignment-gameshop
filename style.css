@@ -188,6 +188,78 @@ nav {
     line-height: 30px;
 }
 
+/* magazine1 section */
+.magazine-1 {
+    padding: 0px 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+}
+
+.magazine1-writings{
+    max-width: 350px;
+    padding-bottom: 300px;
+    margin-left: 100px;
+}
+.magazine-title {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-black {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.magazine1-writings p {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.small-img1{
+    position: relative;
+    bottom: 300px;
+    right: 450px;
+
+}
+
+/* magazine2 section */
+.magazine-2{
+    padding: 0px 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.magazine2-writings{
+    max-width: 350px;
+    padding-bottom: 300px;
+    text-align: right;
+}
+.magazine2-writings p{
+    text-align: right;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.magazine2-writings > .magazine-title, .title-black{
+    text-align: right;
+}
+
+.small-img2 img{
+    position: relative;
+    bottom: 250px;
+    left: 550px;
+}
 
 /* footer */
 footer {
