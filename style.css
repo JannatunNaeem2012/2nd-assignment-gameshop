@@ -80,7 +80,7 @@ nav {
 
 .goat {
     text-align: center;
-    font-size: 95px;
+    font-size: 5rem;
     font-weight: 800;
     line-height: normal;
     text-transform: uppercase;
@@ -417,4 +417,35 @@ footer {
     font-size: 16px;
     font-weight: 500;
     line-height: normal;
+}
+
+@media screen and (max-width: 576px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding: 1em 1em;
+    }
+    .head-title{
+        font-size: 1.5em;
+    }
+    .nav-items>ul {
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    .banner-section {
+        flex-direction: column-reverse;
+        padding: 0px 20px;
+    }
+    .banner-column-2 img{
+        width: 100%;
+        padding: 0px 50px;
+    }
+    .banner-column-1{
+        margin-top: 2em;
+    }
+    .column-1-title, .goat{
+        font-size: 3em;
+    }
+    
 }
