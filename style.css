@@ -323,6 +323,41 @@ nav {
     line-height: 40px;
 }
 
+
+/* games section */
+.game-section{
+    padding: 60px 170px;
+}
+.games{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.game-section button{
+    background-color: #FFF;
+    margin: 0.6rem;
+    border-radius: 2rem;
+    border:1px solid #FFF;
+    color:#0B0223;
+    font-weight: 600;
+}
+
+.game-section button:hover{
+    border: 1px solid #FF42A5;
+    color: #FF42A5;
+    background-color: #FFF;
+
+}
+.games-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.games-row-2{
+    padding: 0px 200px;
+}
 /* footer */
 footer {
     background: #0B0223;
